@@ -16,6 +16,7 @@ export default function SettingTab() {
   const [light, setLight] = useState([25, 75]);
   // const theme = useMantineTheme();
   const fetchData = async () => {
+    console.log("fetch");
     let pdata = {
       dust: {
         min: pm[0],
@@ -142,7 +143,14 @@ export default function SettingTab() {
           />
         </div>
         <div className={styles.butt}>
-          <Button color="red" radius="md" onClick={fetchData}>
+          <Button
+            color="red"
+            radius="md"
+            onClick={() => {
+              fetchData();
+              close();
+            }}
+          >
             Confirm
           </Button>
         </div>
