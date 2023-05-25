@@ -51,7 +51,7 @@ export default function Pm25(props: Props) {
   return (
     <div onClick={onClick} className={`${styles.card} ${color}`}>
       <div className={styles.name}>
-        <Image src={smoke} alt="Picture of the author" width={55} height={55} />
+        <Image src={smoke} alt="Picture of the author" width={70} height={70} />
       </div>
       <div className={styles.bottom}>
       <div className={styles.bl}>

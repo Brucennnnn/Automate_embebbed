@@ -100,9 +100,8 @@
   border-radius: 8px;
 } */
 .nav {
+  
   margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
   margin-top: 20px;
   display: flex;
   flex-direction: row;
@@ -114,14 +113,12 @@
 }
 .graphpart {
   width: 70vw;
-  min-width: 500px;
+  min-width: 350px;
   background-color: #2c2c2c;
-  padding: 20px;
   border-radius: 12px;
 }
 .fullpage {
-  margin: 0;
-  padding: 0;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,9 +165,6 @@
 }
 
 @media screen and (max-width: 500px) {
-  .fullpage {
-    width: fit-content;
-  }
   .leftside {
     width: 100%;
   }
